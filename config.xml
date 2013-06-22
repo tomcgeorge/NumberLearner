@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns:rim="http://www.blackberry.com/ns/widgets" id="NumberLearner" version="0.9.1.25" rim:header="RIM-Widget:rim/widget" xmlns="http://www.w3.org/ns/widgets">
+  <rim:navigation mode="focus" />
+  <name>Number Learner For Kids</name>
+  <description>This is a app for Kids for learning numbers by tapping on numbers which read it out</description>
+  <author href="https://github.com/tneil">Tom C George</author>
+  <icon src="images\icon.png" />
+  <icon src="images\icon.png" rim:hover="true" />
+  <rim:splash src="images\bb10-splash-landscape.png" />
+  <rim:splash src="images\bb10-splash-portrait.png" />
+  <rim:loadingScreen backgroundImage="images\background.png" foregroundImage="images\hippo.png" onFirstLaunch="true">
+    <rim:transitionEffect type="fadeIn" />
+  </rim:loadingScreen>
+  <content src="index.htm" />
+  <feature id="blackberry.ui.menu" />
+  <feature id="blackberry.ui.dialog"/>
+  <feature id="blackberry.identity" />
+</widget>
